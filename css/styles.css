@@ -1,0 +1,158 @@
+body{
+font-family: 'Montserrat',
+}
+h1{
+  font-family: "Montserrat-black" 900;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+h2{
+  font-family: Montserrat-Bold:wght@700;
+  font-size: 3rem;
+}
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2rem
+}
+.navbar-nav{
+  padding: : auto 30% auto 30%;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: Montserrat:wght@300;
+
+}
+.download_button{
+  margin: 5% 3% 5% 0;
+}
+.tindog{
+  width: 250px;
+
+  transform: rotate(25deg);
+  position: absolute;
+  margin-top: 72px;
+  margin-left: 100px;
+}
+.row{
+  margin: 50px auto;
+}
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+
+
+}
+
+.features-images{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.features-images:hover{
+  color: #ff4c68
+}
+.h-features{
+  font-size: 1.5rem;
+
+  font-family: "Montserrat-black" 900;
+}
+.p-features{
+  font-family: "Montserrat-black" 900;
+  font-size: 1rem;
+  color: #8f8f8f;
+}
+.features-table{
+   text-align: center;
+   padding: 5% ;
+}
+
+
+#testimonials{
+  padding:  7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-pic{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding:  7% 15%;
+}
+
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press_img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing{
+padding: 100px;
+text-align: center;
+}
+.price-col{
+  padding: 3% 2%;
+
+}
+@media (max-width :1028px) {
+  .tindog{
+    position: static;
+    transform: rotate(0);
+    margin: 10% auto;
+
+
+  }
+  #title{
+    text-align: center;
+  }
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+.cta-head{
+  color: white;
+
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 3rem;
+  padding-bottom: 5%;
+  padding-top: 5%;
+
+}
+.cta-con{
+  padding-bottom: 5%;
+}
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+}
+p{
+
+}
+.social_icon{
+  margin: 20px 10px;
+}
